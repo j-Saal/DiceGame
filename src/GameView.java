@@ -10,7 +10,7 @@ public class GameView extends JFrame {
 
     // Constructor
     public GameView(Game game) {
-        // Set instance variables to proper values
+        // Set instance variable to proper values
         this.game = game;
         this.BOX_X = 240;
         this.BOX_Y = 300;

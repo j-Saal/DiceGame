@@ -23,7 +23,7 @@ public class Player {
 
     // Shuts corresponding tile
     public void shutTile(int a) {
-        // Check if valid input
+        // Check if there is a valid input
         if (gameOver){
             return;
         }

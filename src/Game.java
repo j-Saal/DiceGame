@@ -24,7 +24,7 @@ public class Game {
 
     // Rolls the dice and shuts corresponding tiles based on input
     public void roll() {
-        // Roll both dice and print results
+        // Roll both dice and print the results
         System.out.println(d1);
         roll1 = d1.roll();
         roll2 = d1.roll();

@@ -1,6 +1,3 @@
-import javax.swing.*;
-import java.awt.*;
-
 public class Die {
 
     // Instance Variable
@@ -11,7 +8,7 @@ public class Die {
         numSides = 6;
     }
 
-    // Rolls dice and returns random int
+    // Rolls dice and returns the random int
     public int roll() {
         return (int) (Math.random() * numSides + 1);
     }
